@@ -126,6 +126,27 @@ int main(void) {
 	return 0;
 }
 
+//sum it
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int a,b,c,sum;
+	    scanf("%d%d%d\n",&a,&b,&c);
+	    sum=a+b;
+	    if(c==sum){
+	        printf("%s\n","yes");
+	    }else{
+	        printf("%s\n","no");
+	    }
+	}
+	return 0;
+}
+
+
+
 
 
 
