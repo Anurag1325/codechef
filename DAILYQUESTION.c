@@ -144,6 +144,105 @@ int main(void) {
 	}
 	return 0;
 }
+{
+//parity
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x;
+	    scanf("%d\n",&x);
+	    if(x%2==0){
+	        printf("%s\n","yes");
+	    }else{
+	        printf("%s\n","no");
+	    }
+	}
+	return 0;
+}
+}
+{//bull bear
+	#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x,y,diff;
+	    scanf("%d%d\n",&x,&y);
+	    diff=x-y;
+	    if(diff<0){
+	        printf("%s\n","profit");
+	    }else if(diff==0){
+	        printf("%s\n","neutral");
+	    }else{
+	        printf("%s\n","loss");
+	    }
+	}
+	return 0;
+}
+
+}
+{// candy division
+	#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x;
+	    scanf("%d\n",&x);
+	    if(x%3==0){
+	        printf("%s\n","yes");
+	    }else{
+	        printf("%s\n","no");
+	    }
+	}
+	return 0;
+}
+}
+{//tour of king
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x,y,total;
+	    scanf("%d%d\n",&x,&y);
+	    total=x*5+y*7;
+	    printf("%d\n",total);
+	}
+	return 0;
+}
+
+}
+{//code and chef brain speed
+#include <stdio.h>
+
+int main(void) {
+    int T;
+    scanf("%d\n",&T);
+    while(T--){
+        int x,y;
+        scanf("%d%d\n",&x,&y);
+        if(x>y){
+            printf("%s\n","NO");
+        }else {
+            printf("%s\n","yes");
+        }
+        }
+    
+	return 0;
+}
+
+}
+
+
+	
+
 
 
 
