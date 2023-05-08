@@ -239,6 +239,95 @@ int main(void) {
 }
 
 }
+{//IPL TICKET RUSH
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x,y,z;
+	    scanf("%d%d\n",&x,&y);
+	    if(x>y){
+	        z=x-y;
+	        printf("%d\n",z);
+	    }else{
+	        printf("%d\n",0);
+	    }
+	        
+	    
+	}
+	return 0;
+}
+}
+{//kitchen timmings
+	#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x,y,z;
+	    scanf("%d%d\n",&x,&y);
+	    z=y-x;
+	    printf("%d\n",z);
+	}
+	return 0;
+}
+	{//kitchen timmings
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int x,y,z;
+	    scanf("%d%d\n",&x,&y);
+	    z=y-x;
+	    printf("%d\n",z);
+	}
+	return 0;
+}
+	}
+	{//masterchef finals
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int X;
+	    scanf("%d\n",&X);
+	    if(X<=10){
+	        printf("%s\n","yes");
+	    }else{
+	        printf("%s\n","no");
+	    }
+	}
+	return 0;
+}
+	}
+{// RATING IMPROVEMENT
+#include <stdio.h>
+
+int main(void) {
+	int T;
+	scanf("%d\n",&T);
+	while(T--){
+	    int X,Y,z;
+	    scanf("%d%d\n",&X,&Y);
+	    z=X+200;
+	    if(X<Y && Y<=z){
+	        printf("%s\n","yes");
+	    }else{
+	        printf("%s\n","no");
+	    }
+	}
+	return 0;
+}
+}
+
+
 
 
 	
