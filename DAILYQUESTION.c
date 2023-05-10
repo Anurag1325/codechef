@@ -326,6 +326,24 @@ int main(void) {
 	return 0;
 }
 }
+	{
+		#include <stdio.h>
+
+int main(void) {
+    int T;
+    scanf("%d\n",&T);
+    while(T--){
+        int x,y,z;
+        scanf("%d%d%d\n",&x,&y,&z);
+        if(x<=z && z<y){
+            printf("%s\n","yes");
+        }else{
+            printf("%s\n","no");
+        }
+    }
+	return 0;
+}
+	}
 
 
 
